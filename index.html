@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<title>Pokedex</title>
+</head>
+<body>
+<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<form class="form-inline">
+					<div class="form-group mr-2">
+					<input type="text" id= "pokemon-search-input" class="form-control" placeholder="Search Pokemon">
+					</div>
+						<button id="btn-search" class="btn btn-primary">Search</button>
+
+
+						<div class="form-group">
+							<label for="exampleFormControlSelect1"> types </label>
+							<select class="form-control" id="dropdown-menu">
+								<option>Buscar</option>
+								<option>Fire</option>
+								<option>Water</option>
+								<option>Rock</option>
+								<option>Poison</option>
+								<option>Grass</option>
+							</select>
+						</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+<!--fin busqueda-->
+
+<div class="container">
+	<div class="row">
+		<div id="pokemon-list">
+			
+		</div>
+	</div>
+</div>
+
+
+	<script src="js/main.js"></script>
+</body>
+</html>
